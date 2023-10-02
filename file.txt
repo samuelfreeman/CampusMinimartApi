@@ -1,0 +1,24 @@
+// dotenv 
+// allows you to load your environmnet variables from your .env file 
+
+// body-parser 
+// allows send reqs from the client to the  server
+
+//express
+// allows you to create your server
+
+//bcrypt 
+//allows you to hash passwords
+
+//jwt
+//allows you to create  tokens  and verify tokens
+
+//express-validator
+// allows you to validate and sanitize user inputs
+
+//prisma
+// allows you to create your schema
+
+//prismaclient 
+..
+
