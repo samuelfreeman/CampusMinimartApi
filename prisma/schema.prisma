@@ -20,3 +20,15 @@ model User {
   createdAt         DateTime @default(now())
   updatedAt         DateTime @updatedAt
 }
+
+model Vendor {
+  id                Int      @id @default(autoincrement())
+  fullname          String
+  email             String   @unique
+  password          String
+  bussiness_info    String?
+  emailVerified     Boolean  @default(false)
+  verificationToken String?  @unique
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}

@@ -75,9 +75,11 @@ exports.register = async (req, res, next) => {
     data.verificationToken = token; // assingns crpto generated token
 
     //
+
     const user = await prisma.user.create({
       data,
     });
+    
     //
 
     let transporter = nodemailer.createTransport({
